@@ -3,8 +3,8 @@
 import math
 from time import sleep
 
-a = int(input("Enter for a: "))
-b = int(input("Enter for b: "))
+ah = int(input("Enter for a: "))
+bl = int(input("Enter for b: "))
 
 def hypotenuse(aheight, blen):
     print("PROCESSING.........")
@@ -14,4 +14,4 @@ def hypotenuse(aheight, blen):
     newab = a + b
     print(math.sqrt(newab))
 
-hypotenuse(a,b)
+hypotenuse(ah,bl)
